@@ -10,7 +10,7 @@ The program will emulate the MIPS registers, data memory (with an int array size
 In interactive mode, the program displays a prompt and wait for input:
  	`mips>`
 	
-The program should accept the following commands:
+The program accepts the following commands:
 - `h` = show help
 - `d` = dump register state
 - `s` = single step through the program (i.e. execute 1 instruction and stop)
@@ -49,9 +49,9 @@ The program should accept the following commands:
 
 ### Script mode
 
-Your program should take a second optional command line argument which is a script file.  This script file will contain a list of commands and will automate testing of your emulator.  For example, a script file could contain:
+The program takes a second optional command line argument which is a script file.  This script file will contain a list of commands and will automate testing of the emulator.  For example, a script file could contain:
 
 	d
 	m 100 101
 
-When your program runs with a script file, it should run as if those commands were typed into the emulator.
+When the program runs with a script file, it runs as if those commands were typed into the emulator.
