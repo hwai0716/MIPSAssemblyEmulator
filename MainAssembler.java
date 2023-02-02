@@ -4,7 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-public class lab3{
+public class MainAssembler{
 
     public static ArrayList<String> execInstructions = new ArrayList<>();
     public static ArrayList<RegisterNode> registerInfo = new ArrayList<>();
