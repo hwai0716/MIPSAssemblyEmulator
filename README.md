@@ -9,25 +9,26 @@ The program will emulate the MIPS registers, data memory (with an int array size
 
 In interactive mode, the program displays a prompt and wait for input:
  	`mips>`
+	
 The program should accept the following commands:
-`h` = show help
-`d` = dump register state
-`s` = single step through the program (i.e. execute 1 instruction and stop)
-`s` num = step through num instructions of the program
-`r` = run until the program ends
-`m` num1 num2 = display data memory from location num1 to num2
-`c` = clear all registers, memory, and the program counter to 0
-`q` = exit the program
+- `h` = show help
+- `d` = dump register state
+- `s` = single step through the program (i.e. execute 1 instruction and stop)
+- `s` num = step through num instructions of the program
+- `r` = run until the program ends
+- `m` num1 num2 = display data memory from location num1 to num2
+- `c` = clear all registers, memory, and the program counter to 0
+- `q` = exit the program
 
 #### Example interactive session:
 
-	`mips> c
-		Simulator reset`
+	mips> c
+		Simulator reset
 
-	`mips> d`
+	mips> d`
 
-	`pc = 0`
-	`$0 = 0          $v0 = 0         $v1 = 0         $a0 = 0
+	pc = 0
+	$0 = 0          $v0 = 0         $v1 = 0         $a0 = 0
 	$a1 = 0         $a2 = 0         $a3 = 0         $t0 = 0
 	$t1 = 0         $t2 = 0         $t3 = 0         $t4 = 0
 	$t5 = 0         $t6 = 0         $t7 = 0         $s0 = 0
